@@ -110,7 +110,7 @@
     (mkjso "input" input "output" output))
 
 ;;; train-data
-(exprt '(train-data))
+(export '(train-data))
 (defun train-data (&rest patterns)
     (apply #'vector patterns))
 

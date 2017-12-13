@@ -33,6 +33,11 @@
    jscl::make-new jscl::fset jscl::js-null-p
    ))
 
+(export
+ '(klib::make-js-object
+   klib::mkjso
+   klib::curry))
+
 (in-package :cl-user)
 
 
